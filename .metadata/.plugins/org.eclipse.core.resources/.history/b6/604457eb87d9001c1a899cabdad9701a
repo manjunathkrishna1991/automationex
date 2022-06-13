@@ -1,0 +1,17 @@
+package examples;
+
+import org.testng.annotations.Test;
+
+public class One {
+	Exception k;
+	int k=10/0;
+	@Test
+	public void first()
+	{
+		System.out.println("hi");
+	}
+	@Test
+	public void second()
+	{
+	}
+}

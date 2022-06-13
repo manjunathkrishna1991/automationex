@@ -1,0 +1,7 @@
+Feature: Application Login
+
+Scenario: Home page Login
+    Given User is on google page
+    #When User search for "madhusmita meaning" in the search box
+    #Then visit first link
+

@@ -1,0 +1,7 @@
+11:40:11.770 [main] ERROR examples.LoggingExample.Example - this is an error
+11:40:11.775 [main] INFO  examples.LoggingExample.Example - this is an information
+11:40:11.775 [main] TRACE examples.LoggingExample.Example - this is an trace
+11:40:43.525 [main] ERROR examples.LoggingExample.Example - this is an error
+11:40:43.528 [main] INFO  examples.LoggingExample.Example - this is an information
+11:40:43.528 [main] TRACE examples.LoggingExample.Example - this is an trace
+11:40:58.640 [main] ERROR beta.Test - this is an error

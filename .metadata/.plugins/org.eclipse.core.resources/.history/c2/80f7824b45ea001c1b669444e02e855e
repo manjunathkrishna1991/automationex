@@ -1,0 +1,11 @@
+package cucumberOptions;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+@CucumberOptions(features = "",
+glue = ""
+ )
+public class TestCreater {
+
+}

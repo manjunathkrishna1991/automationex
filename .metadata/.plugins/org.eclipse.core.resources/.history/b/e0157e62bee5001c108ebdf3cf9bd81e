@@ -1,0 +1,10 @@
+package com.exampleselegrid;
+
+public class Test {
+	
+	@org.testng.annotations.Test
+	public void googleTest()
+	{
+		
+	}
+}

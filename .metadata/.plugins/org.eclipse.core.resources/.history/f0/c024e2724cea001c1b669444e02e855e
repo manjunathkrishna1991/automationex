@@ -1,0 +1,27 @@
+package stepDevelopment;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class StepDevelopment {
+	  @Given("^User is on google page$")
+	    public void user_is_on_google_page() throws Throwable {
+	       WebDriver dr=new ChromeDriver();
+	       dr.get("http://www.google.com");
+	    }
+
+	    @When("^User search for \"([^\"]*)\" in the search box$")
+	    public void user_search_for_something_in_the_search_box(String strArg1) throws Throwable {
+	        
+	    }
+
+	    @Then("^visit first link$")
+	    public void visit_first_link() throws Throwable {
+	        
+	    }
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.exampleselegrid.Test&apos; to &apos;TestExample&apos;&#x0D;&#x0A;- Original project: &apos;exampleselegrid&apos;&#x0D;&#x0A;- Original element: &apos;com.exampleselegrid.Test&apos;&#x0D;&#x0A;- Renamed element: &apos;com.exampleselegrid.TestExample&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Test&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.exampleselegrid{Test.java[Test" matchStrategy="1" name="TestExample" qualified="false" references="true" similarDeclarations="false" stamp="1654537586059" textual="false" version="1.0"/>
+</session>

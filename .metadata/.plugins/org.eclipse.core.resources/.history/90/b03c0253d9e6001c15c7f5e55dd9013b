@@ -1,0 +1,17 @@
+package com.devtools;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class GettingResponseCode {
+
+		public void getResponse()
+		{
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\chromedriver.exe");
+			
+			ChromeDriver dr=new ChromeDriver();
+			
+			
+			
+			
+		}
+}

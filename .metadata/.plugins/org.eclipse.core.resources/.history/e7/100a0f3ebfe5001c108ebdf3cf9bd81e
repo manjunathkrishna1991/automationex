@@ -1,0 +1,13 @@
+package com.exampleselegrid;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+public class Test {
+	
+	@org.testng.annotations.Test
+	public void googleTest()
+	{
+		WebDriver dr=new RemoteWebDriver();
+	}
+}

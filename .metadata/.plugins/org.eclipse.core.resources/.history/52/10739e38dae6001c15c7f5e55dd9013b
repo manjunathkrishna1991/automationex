@@ -1,0 +1,22 @@
+package com.devtools;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.devtools.DevTools;
+
+public class GettingResponseCode {
+
+		public void getResponse()
+		{
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\chromedriver.exe");
+			
+			ChromeDriver dr=new ChromeDriver();
+			
+			DevTools tool = dr.getDevTools();
+			tool.createSession();
+			
+			dr.get("https://rahulshettyacademy.com/angularAppdemo/");
+			
+			
+			
+		}
+}

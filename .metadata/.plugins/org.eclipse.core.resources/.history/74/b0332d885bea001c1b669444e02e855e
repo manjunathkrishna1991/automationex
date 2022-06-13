@@ -1,0 +1,4 @@
+Feature: Application Login
+
+Scenario: Home page Login
+    Given User is on google page

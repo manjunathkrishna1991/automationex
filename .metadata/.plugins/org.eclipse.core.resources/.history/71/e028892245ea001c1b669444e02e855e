@@ -1,0 +1,9 @@
+package cucumberOptions;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+@CucumberOptions(Cucumber.class)
+public class TestCreater {
+
+}

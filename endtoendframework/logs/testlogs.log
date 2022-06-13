@@ -1,0 +1,8 @@
+07:47:06.542 [TestNG-tests-1] INFO  examples.endtoendframework.TestMain - Login page reached
+07:47:06.915 [TestNG-tests-1] INFO  examples.endtoendframework.TestMain - Login attempt done
+07:47:08.099 [TestNG-tests-1] INFO  examples.endtoendframework.TestMain - Driver object taken
+07:47:25.879 [TestNG-tests-1] INFO  examples.endtoendframework.TestMain - Site loaded
+07:47:26.368 [TestNG-tests-1] INFO  examples.endtoendframework.TestMain - Login page reached
+07:47:27.165 [TestNG-tests-1] ERROR examples.endtoendframework.Listner - Test Failur in loginPageTest
+07:47:27.177 [TestNG-tests-1] INFO  examples.endtoendframework.TestMain - closing the browser
+07:47:27.192 [AsyncHttpClient-1-13] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26

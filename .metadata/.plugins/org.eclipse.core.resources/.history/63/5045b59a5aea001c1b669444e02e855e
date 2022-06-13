@@ -1,0 +1,58 @@
+package stepDevelopments;
+
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+import cucumber.api.java.en.Then;
+import cucumber.api.junit.Cucumber;
+import org.junit.runner.RunWith;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+@RunWith(Cucumber.class)
+public class StepDevelopment {
+	 WebDriver dr;
+	 @Given("^User is on google page$")
+	 public void user_is_on_google_page() throws Throwable {
+	   System.out.println("hello");
+	 }
+
+	 @When("^User search for \"([^\"]*)\" in the search box$")
+	 public void user_search_for_in_the_search_box(String arg1) throws Throwable {
+	     // Write code here that turns the phrase above into concrete actions
+	     throw new PendingException();
+	 }
+
+	 @Then("^visit first link$")
+	 public void visit_first_link() throws Throwable {
+	     // Write code here that turns the phrase above into concrete actions
+	     throw new PendingException();
+	 }
+		/*
+		 * @Given("^User is on google page$") public void user_is_on_google_page() {
+		 * System.setProperty("webdriver.chrome.driver",
+		 * "C:\\Users\\manjunath k s\\Desktop\\chromedriver.exe"); dr=new
+		 * ChromeDriver(); dr.get("http://www.google.com");
+		 * 
+		 * 
+		 * }
+		 * 
+		 * @When("User search for {string} in the search box") public void
+		 * user_search_for_in_the_search_box(String string) {
+		 * dr.findElement(By.name("q")).sendKeys(string,Keys.ENTER);
+		 * 
+		 * }
+		 * 
+		 * @Then("visit first link") public void visit_first_link() {
+		 * dr.findElements(By.cssSelector("h3[class*='LC20lb']")).get(0).click();
+		 * 
+		 * }
+		 */
+
+
+
+
+}

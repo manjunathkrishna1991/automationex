@@ -1,0 +1,10 @@
+package com.example;
+
+public class TestEx {
+	
+	@Test
+	public void demo()
+	{
+		
+	}
+}
